@@ -1,0 +1,27 @@
+/* .notification {
+    background-color: #4CAF50; /* Vert pour un message de succès 
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20%;
+    right: 50%;
+  } */
+
+  .notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.afficherNotification .error {
+    background-color: red;
+}
+.afficherNotification .success {
+  background-color: green;
+}
